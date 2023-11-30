@@ -1,7 +1,7 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  background-color: #fff;
+  border-top: 1px solid hsla(43,10%,86%,.5);
 }
 
 footer .footer {
@@ -12,3 +12,128 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+footer .default-content-wrapper li {
+
+  display: inline-block;
+  margin: 0 90px 25px 0;
+  
+
+}
+
+footer .default-content-wrapper li a {
+  font-family: Josefin Sans;
+    color: #231f20;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .default-content-wrapper li a:hover{
+
+    color: #c4122f;
+    text-decoration: none;
+}
+
+
+footer .default-content-wrapper {
+border-bottom: 1px solid hsla(43,10%,86%,.5);
+}
+
+footer .columns ul{
+
+  list-style: none;
+    column-count: 2;
+    margin-top: 0;
+
+
+}
+
+footer .columns > div {
+
+align-items:start;
+
+}
+
+
+  
+
+footer .columns ul  li   a {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #231f20; 
+    font-family: Josefin Sans;
+}
+
+footer .columns ul  li   a:hover {
+  color: #c4122f;
+}
+
+footer .columns div:nth-child(2) {
+
+  flex-grow: 1.1;
+  margin-top: 10px;
+
+}
+
+footer .columns div:nth-child(1) {
+
+  flex-grow:2;
+}
+
+footer .columns div:nth-child(2) p {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #231f20; 
+  font-family: Josefin Sans;
+}
+
+footer .columns div:nth-child(2) p {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #231f20; 
+  font-family: Josefin Sans;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+footer .columns div:nth-child(2) p > picture {
+  
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer .columns div:nth-child(3) {
+  
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #231f20; 
+  font-family: Josefin Sans;
+  margin-top: 10px;
+  text-decoration: none;
+  flex-grow: 0.5;
+}
+
+footer .default-content-wrapper  {
+
+  margin-top: 50px;
+ 
+}
+
+footer .default-content-wrapper p , footer .default-content-wrapper p a {
+
+    color: #231f20;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+
+
